@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <!--Favicon-->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Assets/favicon_for_mainpage/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Assets/favicon_for_mainpage/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Assets/favicon_for_mainpage/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!--Font for main heading-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font for button headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <!-- "home" is the parent holding everything-->
+    <div class="home">
+      <!--Video tag which is on autoplay mode-->
+
+      <video autoplay muted loop>
+        <source src="Assets/video_1.mp4" type="video/mp4" />
+      </video>
+
+      <!--"Overlay" is a middle screen between video and home content which provide masking effect-->
+
+      <div class="overlay"></div>
+
+      <!--"Home-content" is the main section holding profile image , icons and heading(having links) -->
+
+      <div class="home-content">
+        <!--Profile-Image-->
+
+        <img
+          class="profile-photo"
+          src="Assets/shyam-profile.png"
+          alt="profile-photo"
+        />
+
+        <!-- Main-Heading-->
+
+        <h1>Shyamji Tripathi.</h1>
+
+        <!--First button:"For mailing "-->
+        <!--"button1":is class for div holding platform icon and heading h3 [with link]
+             "linkedin-button": is class for main button
+             "icon":class is use to manipulate design of platform image
+             "hero":class is use to target h3 directly  -->
+
+        <div class="button1">
+          <a
+            href="mailto:shyamjitripathi2002@gmail.com?subject = Feedback&body = Message"
+          >
+            <button class="linkedin-button">
+              <img class="icon" src="Assets/logo/mail.png" alt="mail-icon" />
+              <h3 class="hero">Mail</h3>
+            </button>
+          </a>
+        </div>
+
+        <!--Second button:"For Linkedin"-->
+
+        <div class="button1">
+          <a href="https://www.linkedin.com/in/shyamji-tripathi-9a7b90187/">
+            <button class="linkedin-button">
+              <img
+                class="icon"
+                src="Assets/logo/linkedin.png"
+                alt="mail-icon"
+              />
+              <h3 class="hero">Linkedin</h3>
+            </button>
+          </a>
+        </div>
+
+        <!--Third button:"For Github"-->
+
+        <div class="button1">
+          <a href="https://github.com/Shyamjitripathi">
+            <button class="linkedin-button">
+              <img class="icon" src="Assets/logo/github.png" alt="mail-icon" />
+              <h3 class="hero">Github</h3>
+            </button>
+          </a>
+        </div>
+
+        <!--Forth button:"For my blog"-->
+
+        <div class="button1">
+          <a href="https://superkey.hashnode.dev/">
+            <button class="linkedin-button">
+              <img
+                class="icon"
+                src="Assets/logo/hashnode.png"
+                alt="mail-icon"
+              />
+              <h3 class="hero">Superkey Blog</h3>
+            </button>
+          </a>
+        </div>
+
+        <!--Fifth button:"For GeeksForGeeks Platform practice dashboard"-->
+
+        <div class="button1">
+          <a href="Error page/requestpage.html">
+            <button class="linkedin-button">
+              <img class="icon" src="Assets/logo/GFG.png" alt="mail-icon" />
+              <h3 class="hero">GeeksForGeeks</h3>
+            </button>
+          </a>
+        </div>
+
+        <!--Sixth button:"For Leetcode Practice dashboard"-->
+
+        <div class="button1">
+          <a href="Error page/requestpage.html">
+            <button class="linkedin-button">
+              <img
+                class="icon"
+                src="Assets/logo/leetcode.png"
+                alt="mail-icon"
+              />
+              <h3 class="hero">Leetcode</h3>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
